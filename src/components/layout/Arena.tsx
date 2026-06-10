@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, Upload, PanelRightClose, StopCircle, RefreshCw, Sparkles, BrainCircuit } from 'lucide-react';
+import { Send, Upload, PanelRightClose, StopCircle, RefreshCw, BrainCircuit } from 'lucide-react';
 import { useSessionStore } from '@/stores/sessionStore';
 import { useChat } from '@/hooks/useChat';
 import { AgentType } from '@/lib/types';

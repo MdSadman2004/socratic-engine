@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { PanelRightOpen, BrainCircuit, BookA, Workflow, Zap, FileJson } from 'lucide-react';
+import { PanelRightOpen, BrainCircuit, BookA, Workflow } from 'lucide-react';
 import { useSessionStore } from '@/stores/sessionStore';
 
 export default function MirrorPanel() {

@@ -2,7 +2,7 @@ import pytest
 import httpx
 import json
 
-BASE_URL = "http://localhost:3001"
+BASE_URL = "http://localhost:3000"
 
 def test_telemetry():
     """

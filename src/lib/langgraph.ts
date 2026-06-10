@@ -2,7 +2,7 @@ import { StateGraph, Annotation, END } from '@langchain/langgraph';
 import { RunnableConfig } from '@langchain/core/runnables';
 import { cerebras, MODELS } from './cerebras';
 import { tokenTracker } from './tokenTracker';
-import { Message, CognitiveTrack, DictionaryEntry, StreamChunk, AgentType } from './types';
+import { Message, CognitiveTrack, DictionaryEntry, AgentType } from './types';
 import { ROUTER_PROMPT } from './prompts/router';
 import { PROTOTYPER_PROMPT } from './prompts/prototyper';
 import { INTERROGATOR_PROMPT } from './prompts/interrogator';

@@ -1,0 +1,29 @@
+{
+  "kind": "source-guide",
+  "source_head": "cd372d0929901daa99ba61439a41677d44f517ac",
+  "source_tree": "be8d566ccffc5b59b89acdf68e715fca909c1c62",
+  "source_repository": "https://github.com/MdSadman2004/socratic-engine",
+  "nodes": [
+    {
+      "label": "Thinking workspace",
+      "path": "src/components/layout/AppShell.tsx",
+      "detail": "Chat arena, sidebar and mirror panel"
+    },
+    {
+      "label": "Agent graph",
+      "path": "src/lib/langgraph.ts",
+      "detail": "Router, agent, sentiment and resonance nodes"
+    },
+    {
+      "label": "Chat endpoint",
+      "path": "src/app/api/chat/route.ts",
+      "detail": "Server endpoint for streamed responses"
+    }
+  ],
+  "caption": "Source guide drawn from repository files; not a runtime screenshot or fresh benchmark.",
+  "generated_by": "render_guides.py",
+  "image_dimensions": [
+    1600,
+    960
+  ]
+}
